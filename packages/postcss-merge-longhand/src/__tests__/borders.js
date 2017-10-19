@@ -15,7 +15,7 @@ const wsc = [{
 
 wsc.forEach(({property, fixture}) => {
     test(
-        `should merge to form a border-trbl-${property} definition`,
+        `should merge to form a border-trbl-${property} definition something`,
         processCss,
         [
             `h1{`,
